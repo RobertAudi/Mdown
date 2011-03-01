@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "mdown"
   s.version     = Mdown::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Aziz Light"]
+  s.email       = ["aziiz.light@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Markdown preview}
+  s.description = %q{Preview markdown files in your default browser}
 
   s.add_dependency "bcat", "0.6.0"
   s.add_dependency "maruku", "0.6.0"
