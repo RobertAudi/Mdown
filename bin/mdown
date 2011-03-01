@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/mdown.rb"
+
+begin
+  markdown = Mdown::App.new ARGV[0]
+  markdown.preview!
+  exit
+rescue RuntimeError => error
+  puts "ZOMG " + error.to_s + "!!!"
+end

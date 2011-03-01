@@ -1,3 +1,6 @@
+require "maruku"
+
+require_relative "mdown/app.rb"
+
 module Mdown
-  # Your code goes here...
 end
