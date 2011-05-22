@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative "../lib/mdown.rb"
+require File.expand_path(File.join(File.dirname(__FILE__), "../lib/mdown.rb"))
 
 begin
   markdown = Mdown::App.new ARGV[0]
