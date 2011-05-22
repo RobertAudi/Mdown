@@ -13,7 +13,7 @@ Dependencies
 ------------
 
 - bcat v.0.6.0
-- markdown v.0.6.0
+- maruku v.0.6.0
 
 License
 -------
